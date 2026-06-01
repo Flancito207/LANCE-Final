@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Colaboración científica">
+  <rect width="1200" height="600" fill="rgb(193, 39, 45)" />
+  <rect x="24" y="24" width="1152" height="552" fill="none" stroke="white" stroke-width="4" rx="20" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="72" font-family="Inter, Arial, sans-serif">Colaboración científica</text>
+</svg>

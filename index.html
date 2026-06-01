@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LANCE UANL | Inicio</title>
+    <meta name="description" content="Sitio web para LANCE UANL para FCFM" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">LANCE UANL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#informacion">Información</a></li>
+            <li class="nav-item"><a class="nav-link" href="#investigacion">Investigación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="graficas/graficas.html">Gráficas en tiempo real</a></li>
+            <li class="nav-item"><a class="nav-link" href="#posters">Pósters de Investigación y Divulgación</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="inicio" class="hero-section py-4">
+      <div class="container">
+        <div id="lanceCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#lanceCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#lanceCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#lanceCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded-4 shadow">
+            <div class="carousel-item active">
+              <img src="images/carousel-1.svg" class="d-block w-100" alt="Observación astronómica" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Investigación astronómica</h5>
+                <p>Divulgación y desarrollo científico en la UANL.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel-2.svg" class="d-block w-100" alt="Servicios de LANCE" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Servicios especializados</h5>
+                <p>Infraestructura y análisis para la comunidad académica.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel-3.svg" class="d-block w-100" alt="Comunidad científica" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Colaboración institucional</h5>
+                <p>Redes de colaboración para innovación y educación.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#lanceCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#lanceCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="informacion" class="section-block">
+        <div class="container">
+          <h2>¿Qué es LANCE?</h2>
+          <p>
+            LANCE UANL es un espacio de investigación, innovación y divulgación científica de la Facultad de Ciencias Físico Matemáticas.
+            Integra iniciativas interdisciplinarias para fortalecer la formación académica y la vinculación institucional.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-block section-alt" aria-label="Instituciones colaboradoras">
+        <div class="container">
+          <h2>Instituciones colaboradoras</h2>
+          <div class="row g-3">
+            <div class="col-6 col-md-3"><img src="images/logo-uanl.svg" class="img-fluid institution-logo" alt="Logo UANL" /></div>
+            <div class="col-6 col-md-3"><img src="images/logo-fcfm.svg" class="img-fluid institution-logo" alt="Logo FCFM" /></div>
+            <div class="col-6 col-md-3"><img src="images/logo-lance.svg" class="img-fluid institution-logo" alt="Logo LANCE" /></div>
+            <div class="col-6 col-md-3"><img src="images/logo-colab.svg" class="img-fluid institution-logo" alt="Logo Colaborador" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="posters" class="section-block">
+        <div class="container">
+          <h2>Pósters de Investigación y Divulgación</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h3 class="h5">Póster 1</h3>
+                  <p>Hallazgos recientes de investigación astronómica aplicada.</p>
+                  <a class="btn btn-uanl" href="docs/pdf1.pdf" target="_blank" rel="noopener">Ver PDF</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h3 class="h5">Póster 2</h3>
+                  <p>Divulgación científica para estudiantes de nivel medio y superior.</p>
+                  <a class="btn btn-uanl" href="docs/pdf2.pdf" target="_blank" rel="noopener">Ver PDF</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h3 class="h5">Póster 3</h3>
+                  <p>Proyectos colaborativos de innovación y transferencia tecnológica.</p>
+                  <a class="btn btn-uanl" href="docs/pdf3.pdf" target="_blank" rel="noopener">Ver PDF</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investigacion" class="section-block section-alt">
+        <div class="container">
+          <h2>Investigación</h2>
+          <p>Desarrollo de líneas de investigación en observación astronómica, análisis de datos y formación de recursos humanos especializados.</p>
+        </div>
+      </section>
+
+      <section id="servicios" class="section-block">
+        <div class="container">
+          <h2>Servicios</h2>
+          <p>Asesoría técnica, talleres de divulgación, colaboración interinstitucional y soporte para proyectos científicos y educativos.</p>
+        </div>
+      </section>
+
+      <section id="contacto" class="section-block section-alt">
+        <div class="container">
+          <h2>Contacto</h2>
+          <p>Facultad de Ciencias Físico Matemáticas, UANL · Monterrey, Nuevo León · contacto.lance@uanl.edu.mx</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer py-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <small>© 2026 LANCE UANL · FCFM</small>
+        <small>Sitio web para LANCE UANL para FCFM</small>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="btn btn-uanl back-to-top" aria-label="Ir arriba">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
